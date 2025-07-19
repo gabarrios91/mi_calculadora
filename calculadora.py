@@ -16,3 +16,10 @@ def dividir(a: float, b: float) -> float:
     if b == 0:
         raise ValueError("No se puede dividir por cero.")
     return a / b
+
+if __name__ == "__main__":
+    print(sumar(9, 6))         
+    print(restar(11, 9))         
+    print(multiplicar(9, 9))    
+    print(dividir(20, 2))       
+
