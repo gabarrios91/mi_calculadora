@@ -21,10 +21,14 @@ def potencia(a: float, b: float) -> float:
    # Calcula a elevado a la b.
     return a**b
 
+def elevar_al_cubo(x):
+    
+    #Eleva un número al cubo.
+    return x ** 3
 
 if __name__ == "__main__":
     print(sumar(9, 6))         
     print(restar(11, 9))         
     print(multiplicar(9, 9))    
     print(dividir(20, 2))       
-
+    print(elevar_al_cubo(2))
